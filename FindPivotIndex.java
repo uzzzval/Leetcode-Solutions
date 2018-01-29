@@ -9,7 +9,6 @@ class FindPivotIndex {
             for(int j=i+1;j<nums.length;j++){
                sum2=sum2+nums[j]; 
             }
-            
             if(sum1==sum2){
                 index=i;
                 break;
@@ -17,7 +16,6 @@ class FindPivotIndex {
             sum1=sum1+nums[i];
             indexReached++;
         }
-        System.out.println("Index="+index+" indexReached="+indexReached);
         if(index==0 && indexReached!=nums.length)
             return 0;
         if(index==0 && indexReached==nums.length)

@@ -1,4 +1,4 @@
-class Solution {
+class SetMatrixZeroes {
 	public void setZeroes(int[][] matrix) {
 		Set rowList=new HashSet();
 		Set columnList=new HashSet();

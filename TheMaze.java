@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class TheMaze {
 
 	public static void main(String[] args) {
-		     String inputString = ">>>*<<*";
+         String inputString = ">>>*<<*";
          int sum=returnSum(inputString);
          System.out.println(2017+sum);
 	}

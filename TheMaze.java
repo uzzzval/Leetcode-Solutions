@@ -12,7 +12,7 @@ public class TheMaze {
 	}
 	
 	public static int returnSum(String inputString) {
-		char[] charArray=inputString.toCharArray();
+	char[] charArray=inputString.toCharArray();
         int sum=0;
         int minisum=0;
         

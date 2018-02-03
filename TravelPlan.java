@@ -5,7 +5,6 @@ import java.util.List;
 public class TravelPlan {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int[] nums= {1,0,0,0,2,7,0,0,0,0,9};
 		int length=nums.length;
 		List<Integer> distinctList=new ArrayList<Integer>();

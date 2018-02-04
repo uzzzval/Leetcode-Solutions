@@ -1,7 +1,7 @@
 public class Future {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		int A=4;
 		int K=5;
 		int ahead=1;

@@ -6,11 +6,10 @@ class DailyTemperatures {
     	    }
 		return returnArray;  
     }
-
 	private int noOfMinimumDays(int[] temperatures, int currentTemp,int position) {
 		int count=0;
 		boolean found=false;
-        int length=temperatures.length;
+                int length=temperatures.length;
 		for(int i=position+1;i<length;i++) {
 		  if(temperatures[i]>currentTemp) {
 			  count++;

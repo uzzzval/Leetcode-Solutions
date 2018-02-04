@@ -27,5 +27,4 @@ public class Future {
 		}
 		return count;
 	}
-
 }

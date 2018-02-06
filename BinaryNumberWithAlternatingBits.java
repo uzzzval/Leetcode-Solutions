@@ -1,4 +1,5 @@
 class BinaryNumberWithAlternatingBits {
+    
     public boolean hasAlternatingBits(int n) {
         String binaryNumber=Integer.toBinaryString(n);
         System.out.println(binaryNumber);
@@ -10,4 +11,5 @@ class BinaryNumberWithAlternatingBits {
         }
         return hasAlternate;
     }
+    
 }

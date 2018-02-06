@@ -5,7 +5,7 @@ import java.math.*;
 import java.util.regex.*;
 
 public class Solution {
-
+    //Naming Function
     static String acidNaming(String acid_name) {
         if(acid_name.startsWith("hydro") && acid_name.endsWith("ic"))
             return "non-metal acid";
@@ -14,7 +14,7 @@ public class Solution {
         else 
             return "not an acid";
     }
-
+    // Main Function
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();

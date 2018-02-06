@@ -1,5 +1,5 @@
 class BinaryNumberWithAlternatingBits {
-    
+    //checking if the numberhas alternating bits
     public boolean hasAlternatingBits(int n) {
         String binaryNumber=Integer.toBinaryString(n);
         System.out.println(binaryNumber);

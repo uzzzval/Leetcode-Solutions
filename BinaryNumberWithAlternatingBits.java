@@ -12,6 +12,7 @@ class BinaryNumberWithAlternatingBits {
             if(binaryArr[i]==binaryArr[i+1])
                 hasAlternate=false;
         }
+        
         return hasAlternate;
     }
     

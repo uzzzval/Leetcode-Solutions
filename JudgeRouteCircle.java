@@ -1,5 +1,6 @@
 class JudgeRouteCircle {
     public boolean judgeCircle(String moves) {
+        
         Map map=new HashMap();
         map.put('U',0);
         map.put('D',0);

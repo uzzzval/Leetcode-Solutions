@@ -13,16 +13,13 @@ class Solution {
         List<String> list2=new ArrayList<String>();
         navigate(p,list1);
         navigate(q,list2);
-        System.out.println(list1);
-        System.out.println(list2);
+       
         boolean flag=true;
         if(list1.size()!=list2.size())
             return false;
         if(list1.size()==list2.size()){
             for(int i=0;i<list1.size();i++){
                 if(!list1.get(i).equals(list2.get(i))){
-                    System.out.println(list1.get(i));
-                    System.out.println(list2.get(i));
                     flag=false;
                     break;
                 }

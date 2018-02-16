@@ -11,7 +11,6 @@ class DistributeCandies {
         }
         else{
             return candiesSet.size();
-        }
-        
+        } 
     }
 }

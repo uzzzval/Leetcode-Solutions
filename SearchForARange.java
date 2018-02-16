@@ -1,5 +1,6 @@
 class Solution {
     public int[] searchRange(int[] nums, int target) {
+        
         int[] returnArray=new int[2];
         if (nums.length==0) {
             returnArray[0]=-1;

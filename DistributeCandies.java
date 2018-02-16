@@ -1,5 +1,4 @@
 class DistributeCandies {
-    
     public int distributeCandies(int[] candies) {
         int sizeofArray=candies.length;
         int toBeDividedInto=sizeofArray/2;

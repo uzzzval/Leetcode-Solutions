@@ -25,6 +25,7 @@ public class Future {
 			if(startingK>startingA)
 				break;
 		}
+		
 		return count;
 	}
 }

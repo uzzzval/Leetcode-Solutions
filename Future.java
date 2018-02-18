@@ -1,5 +1,5 @@
 public class Future {
-
+	
 	public static void main(String[] args) {
 		
 		int A=4;

@@ -14,7 +14,6 @@ class BestTimeToBuyAndSellStock {
                 lowest=prices[i];
             }
         }
-        
         return diff;
     }
 }

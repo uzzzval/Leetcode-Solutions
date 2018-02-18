@@ -1,6 +1,5 @@
 class SetMisMatch {
     public int[] findErrorNums(int[] nums) {
-        
         int duplicate=0;
         int duplicateIndex=0;
         int missing=0;
@@ -13,7 +12,6 @@ class SetMisMatch {
                  duplicate=nums[i];
              }
         }
-        
         List oldList=new ArrayList();
         List newList=new ArrayList();
         for(int i=0;i<nums.length;i++){

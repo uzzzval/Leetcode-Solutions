@@ -5,7 +5,6 @@ public class Future {
 		int A=4;
 		int K=5;
 		int ahead=1;
-		
 		int result=minNum(A,K,ahead);
 		System.out.println(result);
 	}

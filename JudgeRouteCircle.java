@@ -6,6 +6,7 @@ class JudgeRouteCircle {
         map.put('D',0);
         map.put('R',0);
         map.put('L',0);
+        
         for(int i=0;i<moves.length();i++){
             if(map.get(moves.charAt(i))!=null){
                 int count=Integer.parseInt(map.get(moves.charAt(i)).toString());

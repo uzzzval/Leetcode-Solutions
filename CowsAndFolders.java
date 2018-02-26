@@ -1,6 +1,5 @@
 package cows.and.folders;
 
-
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;

@@ -12,7 +12,6 @@ import java.util.Map.Entry;
 import java.util.Scanner;
 import java.util.Set;
 
-
 public class Node {
 	private int data;
 	private List<Integer> accesspeople;

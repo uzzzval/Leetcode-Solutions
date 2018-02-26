@@ -118,8 +118,6 @@ public class Node {
 
 	}
 
-
-
 	private static void findUnCool(Node rootNode, Set<Integer> unCoolList, Set<Integer> cowsSet) {
 		if(rootNode==null) {
 			return;

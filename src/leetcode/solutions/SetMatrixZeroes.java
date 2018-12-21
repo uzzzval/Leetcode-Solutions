@@ -1,3 +1,8 @@
+package leetcode.solutions;
+
+import java.util.HashSet;
+import java.util.Set;
+
 class SetMatrixZeroes {
 	public void setZeroes(int[][] matrix) {
 		Set rowList=new HashSet();

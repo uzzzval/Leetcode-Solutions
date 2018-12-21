@@ -1,4 +1,9 @@
-class Solution {
+package leetcode.solutions;
+
+import java.util.ArrayList;
+import java.util.List;
+
+class SearchForARange {
     public int[] searchRange(int[] nums, int target) {
         int[] returnArray=new int[2];
         if (nums.length==0) {

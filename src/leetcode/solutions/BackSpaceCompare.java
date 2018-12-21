@@ -1,3 +1,7 @@
+package leetcode.solutions;
+
+import java.util.Stack;
+
 class BackSpaceCompare {
     public boolean backspaceCompare(String S, String T) {
         Stack<Character> stack1 = new Stack<>();

@@ -1,13 +1,12 @@
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode(int x) { val = x; }
- * }
- */
-class Solution {
+package leetcode.solutions;
+
+import java.util.ArrayList;
+import java.util.List;
+
+ //Definition for a binary tree node.
+ 
+
+class SameTree {
     public boolean isSameTree(TreeNode p, TreeNode q) {
         List<String> list1=new ArrayList<String>();
         List<String> list2=new ArrayList<String>();

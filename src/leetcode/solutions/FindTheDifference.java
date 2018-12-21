@@ -1,3 +1,8 @@
+package leetcode.solutions;
+
+import java.util.ArrayList;
+import java.util.List;
+
 class FindTheDifference {
     public char findTheDifference(String s, String t) {
         List list1=new ArrayList();

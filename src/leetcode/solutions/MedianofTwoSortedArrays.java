@@ -1,3 +1,9 @@
+package leetcode.solutions;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
 class MedianofTwoSortedArrays {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int length1 = nums1.length;

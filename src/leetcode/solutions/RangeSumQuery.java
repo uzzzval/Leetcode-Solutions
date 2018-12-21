@@ -1,3 +1,5 @@
+package leetcode.solutions;
+
 class NumArray {
    private int[] sum;
 

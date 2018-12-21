@@ -1,3 +1,9 @@
+package leetcode.solutions;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 class SetMisMatch {
     public int[] findErrorNums(int[] nums) {
         int duplicate=0;

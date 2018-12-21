@@ -1,3 +1,8 @@
+package leetcode.solutions;
+
+import java.util.HashSet;
+import java.util.Set;
+
 /**
  * Definition for singly-linked list.
  * class ListNode {

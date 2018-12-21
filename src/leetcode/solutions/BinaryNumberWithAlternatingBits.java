@@ -1,3 +1,5 @@
+package leetcode.solutions;
+
 class BinaryNumberWithAlternatingBits {
     
     //checking if the numberhas alternating bits

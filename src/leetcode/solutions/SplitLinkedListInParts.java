@@ -1,3 +1,9 @@
+package leetcode.solutions;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
 class SplitLinkedListInParts {
     public int findMin(int[] nums) {
         int length=nums.length;

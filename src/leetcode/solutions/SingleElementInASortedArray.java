@@ -1,3 +1,9 @@
+package leetcode.solutions;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
 class SingleElementInASortedArray {
     public int singleNonDuplicate(int[] nums) {
         

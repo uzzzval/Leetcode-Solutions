@@ -1,3 +1,11 @@
+package leetcode.solutions;
+
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
+
 class Solution {
     public String mostCommonWord(String paragraph, String[] banned) {
         String paragraph1 = paragraph.replaceAll(","," ");

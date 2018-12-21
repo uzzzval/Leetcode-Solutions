@@ -1,4 +1,6 @@
-class Solution {
+package leetcode.solutions;
+
+class ArithmeticSlices {
     public int numberOfArithmeticSlices(int[] A) {
         
         if(A.length<3) return 0;

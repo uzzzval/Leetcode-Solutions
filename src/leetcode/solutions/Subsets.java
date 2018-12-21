@@ -1,3 +1,9 @@
+package leetcode.solutions;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 class Subsets {
     public List<List<Integer>> subsets(int[] nums) {
     List<List<Integer>> list = new ArrayList<>();

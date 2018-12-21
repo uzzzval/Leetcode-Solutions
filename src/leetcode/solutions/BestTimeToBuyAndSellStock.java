@@ -1,3 +1,5 @@
+package leetcode.solutions;
+
 class BestTimeToBuyAndSellStock {
     public int maxProfit(int[] prices) {
         int length=prices.length;

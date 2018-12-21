@@ -1,4 +1,9 @@
-class Result {
+package leetcode.solutions;
+
+import java.util.ArrayList;
+import java.util.List;
+
+class NoPairsAllowed {
 
     /*
      * Complete the 'minimalOperations' function below.

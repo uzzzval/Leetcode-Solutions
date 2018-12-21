@@ -1,4 +1,6 @@
-class Solution {
+package leetcode.solutions;
+
+class MinAddToValidParentheses {
     public int minAddToMakeValid(String S) {
         int balance = 0, local = 0;
         for(int i=0;i<S.length();i++){

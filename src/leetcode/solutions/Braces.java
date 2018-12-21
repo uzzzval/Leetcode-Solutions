@@ -1,4 +1,9 @@
-    // Complete the braces function below.
+package leetcode.solutions;
+
+import java.util.Stack;
+
+public class Braces{
+// Complete the braces function below.
     static String[] braces(String[] values) {
         String[] output = new String[values.length];
         for (int i = 0; i < values.length; i++) {
@@ -32,5 +37,5 @@
         }
         return output;
     }
-
+}
 

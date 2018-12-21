@@ -1,3 +1,5 @@
+package leetcode.solutions;
+
 class MissingNumber {
     public int missingNumber(int[] nums) {
         int length = nums.length;

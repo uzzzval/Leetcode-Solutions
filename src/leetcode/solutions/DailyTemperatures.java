@@ -1,3 +1,5 @@
+package leetcode.solutions;
+
 class DailyTemperatures {
     public int[] dailyTemperatures(int[] temperatures) {
     	    int[] returnArray=new int [temperatures.length];

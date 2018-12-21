@@ -1,4 +1,6 @@
-class Solution {
+package leetcode.solutions;
+
+class TwoSum {
     public int[] twoSum(int[] nums, int target) {
         int[] result = new int[2];
         int diff = 0;

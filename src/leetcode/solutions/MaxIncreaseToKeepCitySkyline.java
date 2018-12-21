@@ -1,4 +1,6 @@
-class Solution {
+package leetcode.solutions;
+
+class MaxIncreaseToKeepCitySkyline {
     public int maxIncreaseKeepingSkyline(int[][] grid) {
         
         int count = 0;

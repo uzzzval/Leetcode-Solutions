@@ -1,10 +1,12 @@
+package leetcode.solutions;
+
 import java.io.*;
 import java.util.*;
 import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 
-public class Solution {
+public class AcidNaming {
     //Naming Function
     static String acidNaming(String acid_name) {
         if(acid_name.startsWith("hydro") && acid_name.endsWith("ic"))

@@ -1,3 +1,8 @@
+package leetcode.solutions;
+
+import java.util.HashSet;
+import java.util.Set;
+
 class DistributeCandies {
     public int distributeCandies(int[] candies) {
         int sizeofArray=candies.length;

@@ -1,3 +1,5 @@
+package leetcode.solutions;
+
 class FindPivotIndex {
     public int pivotIndex(int[] nums) {
         if (nums.length==0) return -1;

@@ -1,3 +1,5 @@
+package leetcode.solutions;
+
 class EfficientSearchOn2DArray {
     public boolean searchMatrix(int[][] matrix, int target) {
         int row = matrix.length - 1;

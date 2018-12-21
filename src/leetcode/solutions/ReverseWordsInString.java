@@ -1,4 +1,6 @@
-public class ReverseWordInString {
+package leetcode.solutions;
+
+public class ReverseWordsInString {
     public String reverseWords(String s) {
          String returnString = "";
         String[] stringArray = s.split(" ");

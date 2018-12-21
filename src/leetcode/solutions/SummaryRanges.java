@@ -1,3 +1,10 @@
+package leetcode.solutions;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Iterator;
+import java.util.List;
+
 class SummaryRanges {
     public List<String> summaryRanges(int[] nums) {
         List elementList=new ArrayList();

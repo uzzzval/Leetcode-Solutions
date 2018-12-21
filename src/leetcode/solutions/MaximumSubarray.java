@@ -1,4 +1,6 @@
-class Solution {
+package leetcode.solutions;
+
+class MaximumSubarray {
     public int maxSubArray(int[] nums) {
         int max_so_far=0, max_ending_here=0;
         int length=nums.length;

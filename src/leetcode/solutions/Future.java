@@ -1,3 +1,5 @@
+package leetcode.solutions;
+
 public class Future {
 	
 	public static void main(String[] args) {

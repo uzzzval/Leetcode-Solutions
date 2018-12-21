@@ -1,3 +1,5 @@
+package leetcode.solutions;
+
 class SmallestNumberGreaterThanTarget {
     public char nextGreatestLetter(char[] letters, char target) {
         char returnChar=' ';

@@ -1,3 +1,5 @@
+package leetcode.solutions;
+
 class StairCase {
    
     public int climbStairs(int n) {

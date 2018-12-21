@@ -1,3 +1,8 @@
+package leetcode.solutions;
+
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -9,7 +14,7 @@
  *     }
  * }
  */
-public class Solution {
+public class IntersectionLinkList {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         if(headA==null && headB==null) return null;
         if(headA==null || headB==null) return null;

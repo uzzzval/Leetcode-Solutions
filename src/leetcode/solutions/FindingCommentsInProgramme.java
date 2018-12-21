@@ -1,3 +1,5 @@
+package leetcode.solutions;
+
 import java.io.*;
 import java.util.*;
 

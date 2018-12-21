@@ -1,4 +1,10 @@
-class Solution {
+package leetcode.solutions;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+class MergeKList {
     public ListNode mergeKLists(ListNode[] lists) {
         List<Integer> list = new ArrayList<>();
         ListNode returnNode = null;

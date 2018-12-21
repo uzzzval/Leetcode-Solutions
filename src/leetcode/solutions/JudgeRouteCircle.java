@@ -1,3 +1,8 @@
+package leetcode.solutions;
+
+import java.util.HashMap;
+import java.util.Map;
+
 class JudgeRouteCircle {
     public boolean judgeCircle(String moves) {
         

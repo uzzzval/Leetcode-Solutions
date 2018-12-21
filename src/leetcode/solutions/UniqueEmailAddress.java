@@ -12,8 +12,8 @@ public class UniqueEmailAddress {
 	
 	public static int numUniqueEmails(String[] emails) {
 		Set<String> uniqueSet = new HashSet<String>();
-        for(int i=0;i<emails.length;i++){
-            String[] emailSplit = emails[i].split("@");
+        for (String email:emails){
+            String[] emailSplit = email.split("@");
             String localString = emailSplit[0];
             localString = localString.replace(".", "");
             int plusPosition=0;

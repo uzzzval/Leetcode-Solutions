@@ -11,21 +11,16 @@ public class LicenseKeyFormatting {
 	}
 	
 	public static String licenseKeyFormatting(String S, int K) {
-		String returnString = "";
 		String rawString = S.replaceAll("-", "").toUpperCase();
-		System.out.println(rawString);
 		int length = rawString.length();
-		String leftOver = "";
-		while(length>K) {
-			//leftOver = rawString.substring(0,length - K);
-			String local = rawString.substring(length - K, length);
-			length = length - K;
-			returnString = local + "-" + returnString;
-		}
-		if(returnString.endsWith("-")) {
-			returnString = returnString.substring(0, returnString.length()-1);
-		}
-		return rawString.substring(0,length) +"-" + returnString;
+		StringBuilder sb = new StringBuilder();
+        for(int i=0; i<rawString.length();i++) {
+           sb.append(rawString.charAt(i));
+        }
+        for(int i=K; i < length; i=i+K) {
+            sb.insert(length-i,'-');
+        }
+        return sb.toString();
     }
 
 }
